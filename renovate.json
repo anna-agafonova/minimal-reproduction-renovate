@@ -9,9 +9,7 @@
     {
       "description": "Group dependencies from Jenkins plugins.txt file",
       "matchFileNames": ["plugins.txt"],
-      "enabled": true,
-      "separateMajorMinor": false,
-      "separateMinorPatch": false
+      "enabled": true
     }
   ]
 }
