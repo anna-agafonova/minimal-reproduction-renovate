@@ -2,5 +2,7 @@
   "repositories": [
     "anna-agafonova/minimal-reproduction-renovate"
   ],
-  "onboardingBranch": "renovate-configure"
+  "onboardingBranch": "renovate-configure",
+  "prHourlyLimit": 0,
+  "prConcurrentLimit": 0
 }
