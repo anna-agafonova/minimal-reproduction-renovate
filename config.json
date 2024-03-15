@@ -1,0 +1,7 @@
+{
+  "repositories": [
+    "anna-agafonova/minimal-reproduction-renovate"
+  ],
+  "onboardingBranch": "main",
+  "dryRun": "full"
+}

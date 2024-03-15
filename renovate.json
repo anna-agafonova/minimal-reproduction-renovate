@@ -1,0 +1,17 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "constraintsFiltering": "strict",
+  "constraints": {"jenkins": ">= 2.0 <= 2.426.3"},
+  "extends": [
+    "docker:disable"
+  ],
+  "packageRules": [
+    {
+      "description": "Group dependencies from Jenkins plugins.txt file",
+      "matchFileNames": ["plugins.txt"],
+      "enabled": true,
+      "separateMajorMinor": false,
+      "separateMinorPatch": false
+    }
+  ]
+}
